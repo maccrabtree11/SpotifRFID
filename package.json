@@ -1,0 +1,22 @@
+{
+  "name": "spotify",
+  "version": "1.0.0",
+  "description": "Mac's personal record player RFID-er",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "spotiRFID"
+  },
+  "author": "Mac Crabtree",
+  "license": "ISC",
+  "dependencies": {
+    "@spotify/web-api-ts-sdk": "^1.1.2",
+    "@types/node": "^20.8.9",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.2"
+  }
+}
